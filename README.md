@@ -6,3 +6,6 @@ Learning the fundamentals of PHP.
 * Numbers in PHP.
 * Strings in PHP.
 * Arrays in PHP.
+* Conditionals & Loops in PHP.
+* Functions in PHP.
+* Date in PHP.
