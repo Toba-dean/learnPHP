@@ -9,3 +9,7 @@ Learning the fundamentals of PHP.
 * Conditionals & Loops in PHP.
 * Functions in PHP.
 * Date in PHP.
+* File sharing.
+* OOP.
+* CURL (Resources).
+* Database (mySql) using PDO.
