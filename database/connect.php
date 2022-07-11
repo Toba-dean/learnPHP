@@ -8,6 +8,7 @@ $password = '';
 $dbname = 'guestDB';
 
 try {
+  // connect to DB
   $conn = new PDO("mysql:host=$servername;port=3306;dbname=$dbname", $username, $password);
 
   // setting error mode

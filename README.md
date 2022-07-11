@@ -13,3 +13,5 @@ Learning the fundamentals of PHP.
 * OOP.
 * CURL (Resources).
 * Database (mySql) using PDO.
+* Product Crud operation.
+* Auto-load and Composers.
