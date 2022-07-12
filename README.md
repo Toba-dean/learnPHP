@@ -15,3 +15,4 @@ Learning the fundamentals of PHP.
 * Database (mySql) using PDO.
 * Product Crud operation.
 * Auto-load and Composers.
+* MVC with the product crud app.

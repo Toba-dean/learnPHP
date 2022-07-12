@@ -1,0 +1,15 @@
+{
+    "name": "hp/goodway",
+    "authors": [
+        {
+            "name": "Toba-dean",
+            "email": "tobaogundimu@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "app\\": "./"
+        }
+    }
+}
