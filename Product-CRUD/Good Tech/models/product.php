@@ -5,6 +5,8 @@ namespace app\models;
 use app\Database;
 use app\helpers\UtilHelper;
 
+
+// This is the the Product schema like the MONGO DB schema!!
 class Product {
   public ?int $id = null;
   public string $title;
@@ -13,6 +15,7 @@ class Product {
   public array $imageFile;
   public ?string $imagePath = null;
 
+  // get the data from the input and set it to the variables
   function load($data) {
     $this->id = $data['id'] ?? null;
     $this->title = $data['title'];
@@ -22,6 +25,7 @@ class Product {
     $this->imagePath = $data['img'] ?? null;
   }
 
+  // check for errors and save it into the DB
   function save() {
     $errors = [];
 
@@ -50,6 +54,7 @@ class Product {
 
       $db = Database::$db;
 
+      // if no errors either update the DB or create a new product.
       if ($this->id) {
         $db->updateProduct($this);
       } else {

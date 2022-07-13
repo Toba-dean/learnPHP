@@ -2,6 +2,8 @@
 
 namespace app;
 
+
+// this gets the method being called resolves it by setting the function to be invoked then generate the view to render.
 class Router {
   public array $getRoutes = [];
   public array $postRoutes = [];

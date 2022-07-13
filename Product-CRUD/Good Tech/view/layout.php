@@ -1,3 +1,4 @@
+<!-- This is the layout of the page rendered -->
 <!doctype html>
 <html lang="en">
 
@@ -14,6 +15,7 @@
 
 <body>
 
+  <!-- This is gotten from the View folder  -->
   <?php echo $content ?>
 
 </body>

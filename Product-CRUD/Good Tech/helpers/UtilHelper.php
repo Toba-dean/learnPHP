@@ -1,5 +1,5 @@
 <?php
-
+// helpers are like utility functions that does a particular task.
 namespace app\helpers;
 
 class UtilHelper {

@@ -1,17 +1,17 @@
 {
-    "name": "hp/autoloading",
-    "authors": [
-        {
-            "name": "Toba-dean",
-            "email": "tobaogundimu@gmail.com"
-        }
-    ],
-    "require": {
-        "guzzlehttp/guzzle": "^7.4"
-    },
-    "autoload": {
-        "psr-4": {
-            "src\\": "./src"
-        }
+  "name": "hp/autoloading",
+  "authors": [
+    {
+      "name": "Toba-dean",
+      "email": "tobaogundimu@gmail.com"
     }
+  ],
+  "require": {
+    "guzzlehttp/guzzle": "^7.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "src\\": "./src"
+    }
+  }
 }

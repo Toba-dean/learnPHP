@@ -5,6 +5,7 @@ namespace app;
 use app\models\Product;
 use PDO;
 
+// this does all the Database manipulation
 class Database {
   public $pdo;
   public static ?Database $db;
