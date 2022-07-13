@@ -20,5 +20,5 @@ $router->get('/products/update', [ProductCtrl::class, 'update']);
 $router->post('/products/update', [ProductCtrl::class, 'update']);
 $router->post('/products/delete', [ProductCtrl::class, 'delete']);
 
-// 
+// this detects the current route i.e get or post and execute the corresponding function.
 $router->resolve();
